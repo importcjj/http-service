@@ -15,7 +15,7 @@ version = "0.4.1"
 [dependencies]
 http = "0.1"
 http-service = { version = "0.4.0", path = ".." }
-hyper = { version = "0.12.27", default-features = false }
+hyper = { version = "0.13", default-features = false }
 
 [dependencies.futures]
 features = ["compat", "io-compat"]
